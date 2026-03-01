@@ -1,0 +1,13 @@
+{
+  "domain": "epexprijzen-nl",
+  "name": "epexprijzen.nl",
+  "version": "1.0.0",
+  "documentation": "https://epexprijzen.nl/api-documentatie",
+  "issue_tracker": "https://github.com/hanzwo/ha-epexprijzen-nl/issues",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "after_dependencies": [],
+  "requirements": [],
+  "iot_class": "cloud_polling"
+}

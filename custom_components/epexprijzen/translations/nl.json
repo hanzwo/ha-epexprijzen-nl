@@ -1,0 +1,64 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "epexprijzen.nl instellen",
+        "description": "Kies je energieleverancier en het gewenste prijsinterval.",
+        "data": {
+          "provider": "Energieleverancier",
+          "price_interval": "Prijsinterval"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken met epexprijzen.nl. Controleer je internetverbinding.",
+      "invalid_response": "Onverwachte API-respons van epexprijzen.nl.",
+      "unknown": "Onbekende fout."
+    },
+    "abort": {
+      "already_configured": "Deze leverancier en dit interval zijn al geconfigureerd."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "epexprijzen.nl opties",
+        "description": "Pas je energieleverancier of prijsinterval aan.",
+        "data": {
+          "provider": "Energieleverancier",
+          "price_interval": "Prijsinterval"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Kan geen verbinding maken met epexprijzen.nl. Controleer je internetverbinding.",
+      "invalid_response": "Onverwachte API-respons van epexprijzen.nl.",
+      "unknown": "Onbekende fout."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "current_price": {
+        "name": "Huidige prijs"
+      },
+      "today_min": {
+        "name": "Laagste prijs vandaag"
+      },
+      "today_max": {
+        "name": "Hoogste prijs vandaag"
+      },
+      "today_avg": {
+        "name": "Gemiddelde prijs vandaag"
+      },
+      "tomorrow_min": {
+        "name": "Laagste prijs morgen"
+      },
+      "tomorrow_max": {
+        "name": "Hoogste prijs morgen"
+      },
+      "tomorrow_avg": {
+        "name": "Gemiddelde prijs morgen"
+      }
+    }
+  }
+}
