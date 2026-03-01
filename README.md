@@ -71,7 +71,7 @@ yaxis:
     min: ~0
     max: "|+0.05|"
 series:
-  - entity: sensor.anwb_energie_hourly_huidige_prijs
+  - entity: sensor.engie_hourly_huidige_prijs
     stroke_width: 2
     name: Vandaag
     float_precision: 4
@@ -79,7 +79,7 @@ series:
     curve: stepline
     data_generator: |
       return entity.attributes.today.map((item) => [item.t, item.price]);
-  - entity: sensor.anwb_energie_hourly_huidige_prijs
+  - entity: sensor.engie_hourly_huidige_prijs
     stroke_width: 2
     name: Morgen
     float_precision: 4
