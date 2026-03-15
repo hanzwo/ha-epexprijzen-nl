@@ -77,10 +77,11 @@ async def _test_connection(hass: Any, provider: str, interval: str) -> str | Non
     return None
 
 
-class EpexPrijzenConfigFlow(ConfigFlow, domain=DOMAIN):
+class EpexPrijzenConfigFlow(ConfigFlow):
     """Handle a config flow for epexprijzen.nl."""
 
     VERSION = 1
+    DOMAIN = DOMAIN
 
     async def async_step_user(
         self, user_input: dict[str, Any] | None = None
