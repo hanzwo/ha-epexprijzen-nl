@@ -1,10 +1,10 @@
 {
-  "domain": "epexprijzen-nl",
+  "domain": "epexprijzen",
   "name": "epexprijzen.nl",
   "version": "1.0.0",
   "documentation": "https://epexprijzen.nl/api-documentatie",
   "issue_tracker": "https://github.com/hanzwo/ha-epexprijzen-nl/issues",
-  "codeowners": [],
+  "codeowners": ["@hanzwo"],
   "config_flow": true,
   "dependencies": [],
   "after_dependencies": [],
