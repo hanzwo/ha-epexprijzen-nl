@@ -77,7 +77,7 @@ async def _test_connection(hass: Any, provider: str, interval: str) -> str | Non
     return None
 
 
-class EpexPrijzenConfigFlow(ConfigFlow):
+class EpexPrijzenConfigFlow(ConfigFlow, domain=DOMAIN):
     """Handle a config flow for epexprijzen.nl."""
 
     VERSION = 1
